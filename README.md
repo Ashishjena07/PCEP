@@ -269,7 +269,7 @@ Objectives covered by the block (9 exam items)
 - text vs. binary modes
 
 **PCAP-31-03 5.5** – Perform Input/Output operations
-- the open() function
+- the `open()` function
 - the errno variable and its values
-- functions: close(), .read(), .write(), .readline(), readlines()
-- using bytearray as input/output buffer
+- functions: `close()`, `.read()`, `.write()`, `.readline()`, `readlines()`
+- using `bytearray` as input/output buffer
