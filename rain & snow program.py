@@ -1,4 +1,4 @@
-#checking weather is raining or snowing if it is true either of its true
+#checking weather is raining or snowing (if it is true either of its true)
 
 def getData(weather):
     val=True
@@ -7,7 +7,7 @@ def getData(weather):
         data=input(f" is it {weather}").lower()
         val  = checking(data)
 
-        return data
+    return data
 
 def checking (data):
     if data == "Yes" or data == "no":
@@ -17,4 +17,8 @@ def checking (data):
 
 rain = getData("Raining")
 snow = getData("snowing")
-print(f"{rain} , {snow}")
+
+if rain == "yes" or snow == "yes":
+    print("True")
+else:
+    print("False")
