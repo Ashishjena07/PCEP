@@ -1,0 +1,305 @@
+Index: rain & snow program.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#checking weather is raining or snowing if it is true either of its true\r\n\r\ndef getData(weather):\r\n    val=True\r\n    data=\"\"\r\n    while val:\r\n        data=input(f\" is it {weather}\").lower()\r\n        val  = checking(data)\r\n\r\n        return data\r\n\r\ndef checking (data):\r\n    if data == \"Yes\" or data == \"no\":\r\n        return False\r\n    else:\r\n        return True\r\n\r\nrain = getData(\"Raining\")\r\nsnow = getData(\"snowing\")\r\nprint(f\"{rain} , {snow}\")
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/rain & snow program.py b/rain & snow program.py
+--- a/rain & snow program.py	
++++ b/rain & snow program.py	
+@@ -1,20 +1,26 @@
+-#checking weather is raining or snowing if it is true either of its true
++# checking weather is raining or snowing if it is true either of its true
+ 
+ def getData(weather):
+-    val=True
+-    data=""
++    val = True
++    data = ""
+     while val:
+-        data=input(f" is it {weather}").lower()
+-        val  = checking(data)
++        data = input(f" is it {weather}").lower()
++        val = checking(data)
+ 
+-        return data
++    return data
+ 
+-def checking (data):
+-    if data == "Yes" or data == "no":
++
++def checking(data):
++    if data == "yes" or data == "no":
+         return False
+     else:
+         return True
+ 
++
+ rain = getData("Raining")
+-snow = getData("snowing")
+-print(f"{rain} , {snow}")
+\ No newline at end of file
++snow = getData("Snowing")
++
++if rain == "yes" or snow == "yes":
++    print("True")
++else:
++    print("False")
+Index: with keyword.py
+===================================================================
+diff --git a/with keyword.py b/with keyword.py
+new file mode 100644
+--- /dev/null	
++++ b/with keyword.py	
+@@ -0,0 +1,9 @@
++# Define the file path
++file_path = 'example.txt'
++
++# Open the file in read mode using 'with' keyword
++with open(file_path, 'r') as file:
++    # Read the contents of the file
++    file_contents = file.read()
++    # Print the contents
++    print(file_contents)
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f00f2bc8-7b75-4ad9-84b8-ec2d13a48544\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/pythonProject1.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/hello.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/nonlocal keyword.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/qodana.yaml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"QODANA_PROBLEMS_VIEW_TAB\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2cY6xgxyU8tO8v3sX8lzs9c9gcv\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.hello.executor\": \"Run\",\r\n    \"Python.keyword.executor\": \"Run\",\r\n    \"Python.nonlocal keyword.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"ChangesTree.GroupingKeys\": [\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"QodanaReportsService\">\r\n    <option name=\"descriptions\">\r\n      <ReportDescription localRun=\"true\" path=\"C:\\Users\\ashis\\AppData\\Local\\Temp\\qodana_output\\qodana.sarif.json\" reportGuid=\"2f53c006-e4f0-41dc-aeb3-38e19b4d4357\" reportId=\"pythonProject1/qodana/2024-02-19\" />\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.nonlocal keyword\">\r\n    <configuration name=\"hello\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonProject1\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/hello.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"nonlocal keyword\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonProject1\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/nonlocal keyword.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.nonlocal keyword\" />\r\n        <item itemvalue=\"Python.hello\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"f00f2bc8-7b75-4ad9-84b8-ec2d13a48544\" name=\"Changes\" comment=\"\" />\r\n      <created>1708276413853</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1708276413853</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,16 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="f00f2bc8-7b75-4ad9-84b8-ec2d13a48544" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/nonlocal keyword.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
++    <list default="true" id="f00f2bc8-7b75-4ad9-84b8-ec2d13a48544" name="Changes" comment="basic of nonlocal keyword">
++      <change afterPath="$PROJECT_DIR$/in keyword.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/operators.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/with keyword.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/rain &amp; snow program.py" beforeDir="false" afterPath="$PROJECT_DIR$/rain &amp; snow program.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -28,6 +24,17 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PREVIOUS_COMMIT_AUTHORS">
++      <list>
++        <option value="ashish &lt;ashishjena6370@gmail.com&gt;" />
++      </list>
++    </option>
++    <option name="PUSH_TAGS">
++      <GitPushTagMode>
++        <option name="argument" value="--tags" />
++        <option name="title" value="All" />
++      </GitPushTagMode>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProblemsViewState">
+@@ -37,16 +44,28 @@
+   &quot;associatedIndex&quot;: 5
+ }</component>
+   <component name="ProjectId" id="2cY6xgxyU8tO8v3sX8lzs9c9gcv" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "Python.assert & async keyword.executor": "Run",
++    "Python.day 2.executor": "Run",
+     "Python.hello.executor": "Run",
++    "Python.in keyword.executor": "Run",
+     "Python.keyword.executor": "Run",
+     "Python.nonlocal keyword.executor": "Run",
++    "Python.operators.executor": "Run",
++    "Python.pass keyword.executor": "Run",
++    "Python.prime & even program.executor": "Run",
++    "Python.rain & snow program.executor": "Run",
++    "Python.raise keyword.executor": "Run",
++    "Python.with keyword.executor": "Run",
++    "Python.yield keyword.executor": "Run",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "git-widget-placeholder": "master",
+@@ -57,12 +76,29 @@
+     ]
+   }
+ }]]></component>
+-  <component name="QodanaReportsService">
+-    <option name="descriptions">
+-      <ReportDescription localRun="true" path="C:\Users\ashis\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="2f53c006-e4f0-41dc-aeb3-38e19b4d4357" reportId="pythonProject1/qodana/2024-02-19" />
+-    </option>
+-  </component>
+-  <component name="RunManager" selected="Python.nonlocal keyword">
++  <component name="RunManager">
++    <configuration name="assert &amp; async keyword" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="pythonProject1" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assert &amp; async keyword.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
+     <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="pythonProject1" />
+       <option name="ENV_FILES" value="" />
+@@ -107,8 +143,32 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
++    <configuration name="raise keyword" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="pythonProject1" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/raise keyword.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Python.assert &amp; async keyword" />
++        <item itemvalue="Python.raise keyword" />
+         <item itemvalue="Python.nonlocal keyword" />
+         <item itemvalue="Python.hello" />
+       </list>
+@@ -130,6 +190,67 @@
+       <option name="presentableId" value="Default" />
+       <updated>1708276413853</updated>
+     </task>
++    <task id="LOCAL-00001" summary="basic of nonlocal keyword">
++      <option name="closed" value="true" />
++      <created>1708320694146</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1708320694146</updated>
++    </task>
++    <task id="LOCAL-00002" summary="basic of nonlocal keyword">
++      <option name="closed" value="true" />
++      <created>1708320818755</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1708320818755</updated>
++    </task>
++    <task id="LOCAL-00003" summary="basic of nonlocal keyword">
++      <option name="closed" value="true" />
++      <created>1708321199312</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1708321199312</updated>
++    </task>
++    <task id="LOCAL-00004" summary="basic of nonlocal keyword">
++      <option name="closed" value="true" />
++      <created>1708353581657</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1708353581657</updated>
++    </task>
++    <task id="LOCAL-00005" summary="basic of nonlocal keyword">
++      <option name="closed" value="true" />
++      <created>1708353996693</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1708353996693</updated>
++    </task>
++    <task id="LOCAL-00006" summary="basic of nonlocal keyword">
++      <option name="closed" value="true" />
++      <created>1708355177999</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1708355177999</updated>
++    </task>
++    <task id="LOCAL-00007" summary="basic of nonlocal keyword">
++      <option name="closed" value="true" />
++      <created>1708488985905</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1708488985905</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="basic of nonlocal keyword" />
++    <option name="LAST_COMMIT_MESSAGE" value="basic of nonlocal keyword" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: in keyword.py
+===================================================================
+diff --git a/in keyword.py b/in keyword.py
+new file mode 100644
+--- /dev/null	
++++ b/in keyword.py	
+@@ -0,0 +1,15 @@
++def main():
++    # List of words
++    words = ['apple', 'banana', 'orange', 'grape', 'kiwi']
++
++    # Ask the user to input a word
++    word = input("Enter a word to check: ")
++
++    # Check if the word is in the list
++    if word in words:
++        print(f"{word} is in the list!")
++    else:
++        print(f"{word} is not in the list.")
++
++if __name__ == "__main__":
++    main()
