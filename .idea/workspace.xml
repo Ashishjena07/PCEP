@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f00f2bc8-7b75-4ad9-84b8-ec2d13a48544" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21-02-2024_11_12__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f00f2bc8-7b75-4ad9-84b8-ec2d13a48544" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,12 +50,7 @@
     ]
   }
 }</component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="C:\Users\ashis\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="2f53c006-e4f0-41dc-aeb3-38e19b4d4357" reportId="pythonProject1/qodana/2024-02-19" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.hello">
+  <component name="RunManager">
     <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
@@ -106,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.nonlocal keyword" />
         <item itemvalue="Python.hello" />
+        <item itemvalue="Python.nonlocal keyword" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708494323014</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1708539887851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708539887851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
