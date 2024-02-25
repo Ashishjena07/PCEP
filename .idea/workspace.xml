@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f00f2bc8-7b75-4ad9-84b8-ec2d13a48544" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/N.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/T.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M.py" beforeDir="false" afterPath="$PROJECT_DIR$/M.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/h.py" beforeDir="false" afterPath="$PROJECT_DIR$/h.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,10 @@
     "Python.AA.executor": "Run",
     "Python.F.executor": "Run",
     "Python.I.executor": "Run",
+    "Python.J.executor": "Run",
     "Python.M.executor": "Run",
+    "Python.N.executor": "Run",
+    "Python.T.executor": "Run",
     "Python.h.executor": "Run",
     "Python.hello.executor": "Run",
     "Python.keyword.executor": "Run",
@@ -233,7 +236,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708751874132</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1708752582524</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708752582524</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1708752994184</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708752994184</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
