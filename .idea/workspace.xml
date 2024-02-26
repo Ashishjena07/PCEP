@@ -8,7 +8,10 @@
       <change afterPath="$PROJECT_DIR$/Function.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/J.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/N.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S.py" beforeDir="false" afterPath="$PROJECT_DIR$/S.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/h.py" beforeDir="false" afterPath="$PROJECT_DIR$/h.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,32 +43,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.AA.executor": "Run",
-    "Python.F.executor": "Run",
-    "Python.Function.executor": "Run",
-    "Python.I.executor": "Run",
-    "Python.J.executor": "Run",
-    "Python.M.executor": "Run",
-    "Python.N.executor": "Run",
-    "Python.T.executor": "Run",
-    "Python.h.executor": "Run",
-    "Python.hello.executor": "Run",
-    "Python.keyword.executor": "Run",
-    "Python.memory.executor": "Run",
-    "Python.missing no.executor": "Run",
-    "Python.nonlocal keyword.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.AA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.F.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.I.executor&quot;: &quot;Run&quot;,
+    &quot;Python.J.executor&quot;: &quot;Run&quot;,
+    &quot;Python.M.executor&quot;: &quot;Run&quot;,
+    &quot;Python.N.executor&quot;: &quot;Run&quot;,
+    &quot;Python.S.executor&quot;: &quot;Run&quot;,
+    &quot;Python.T.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flaskapp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.h.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.keyword.executor&quot;: &quot;Run&quot;,
+    &quot;Python.memory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.missing no.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nonlocal keyword.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="AA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
@@ -261,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708874881211</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1708923102460</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708923102460</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

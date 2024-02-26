@@ -8,3 +8,4 @@ def timetaken(x,y):
 x,y =map(int,input().split())
 
 print(timetaken(x,y))
+
